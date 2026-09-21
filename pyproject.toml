@@ -1,0 +1,17 @@
+[project]
+name = "idiolect"
+version = "0.1.0"
+description = "A technical LLM that learns knowledge and a person's natural writing style from their content."
+readme = "README.md"
+authors = [
+    { name = "EssamShenhab", email = "essam119999@gmail.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.scripts]
+idiolect = "idiolect:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
