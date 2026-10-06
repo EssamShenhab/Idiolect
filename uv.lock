@@ -550,6 +550,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pymongo" },
+    { name = "pyyaml" },
     { name = "qdrant-client" },
     { name = "zenml", extra = ["local", "server"] },
 ]
@@ -563,6 +564,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "pymongo", specifier = ">=4.18.2" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "qdrant-client", specifier = ">=1.19.1" },
     { name = "zenml", extras = ["local", "server"], specifier = ">=0.97.0" },
 ]

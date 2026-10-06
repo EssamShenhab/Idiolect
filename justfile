@@ -15,4 +15,3 @@ zenml-demo:
 
 zenml-demo-no-cache:
     uv run python -m tools.run --run-zenml-demo --config-filename zenml_demo.yaml --no-cache
-    
