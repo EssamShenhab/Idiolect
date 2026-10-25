@@ -10,8 +10,8 @@ lint:
 format:
     uv run ruff format .
 
-zenml-demo:
-    uv run python -m tools.run --run-zenml-demo --config-filename zenml_demo.yaml
+digital-data-etl:
+    uv run python -m tools.run
 
-zenml-demo-no-cache:
-    uv run python -m tools.run --run-zenml-demo --config-filename zenml_demo.yaml --no-cache
+digital-data-etl-no-cache:
+    uv run python -m tools.run --no-cache

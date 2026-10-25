@@ -1,0 +1,24 @@
+settings:
+  docker:
+    parent_image: 992382797823.dkr.ecr.eu-central-1.amazonaws.com/zenml-rlwlcs:latest
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+
+parameters:
+  # Data ETL & Feature engineering pipelines parameters
+  author_links:
+    - user_full_name: Andrej Karpathy
+      links:
+        # Medium (only articles that are not under the paid wall work)
+
+        # Substack
+    - user_full_name: # [First Name(s)] [Last Name]
+      links:
+
+
+  # Generate instruct dataset pipeline parameters
+  test_split_size: 0.1
+  push_to_huggingface: false
+  dataset_id: pauliusztin/llmtwin
+  mock: false

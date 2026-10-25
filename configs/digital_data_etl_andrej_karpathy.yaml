@@ -1,0 +1,24 @@
+settings:
+  docker:
+    parent_image: zenmldocker/zenml:py3.12
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+
+
+parameters:
+  user_full_name: Andrej Karpathy
+  links:
+    # YouTube
+    - https://www.youtube.com/watch?v=kCc8FmEb1nY
+    # GitHub
+    - https://github.com/karpathy/micrograd
+    - https://github.com/karpathy/nanochat
+    # Medium
+    - https://karpathy.medium.com/software-2-0-a64152b37c35
+    - https://medium.com/@karpathy/a-peek-at-trends-in-machine-learning-ab8a1085a106
+    # Fallback article crawler
+    - https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+    - https://karpathy.github.io/2022/03/14/lecun1989/
+    - https://karpathy.github.io/2019/04/25/recipe/
+    - https://karpathy.ai/
